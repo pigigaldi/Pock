@@ -1,0 +1,43 @@
+/*
+ Localizable.strings
+ Pock
+ 
+ Created by Licardo on 2019/7/6.
+ Copyright © 2019 Pierluigi Galdi. All rights reserved.
+ */
+
+"General" = "Ogólne";
+"Status Widget" = "Widget Statusu";
+"Dock Widget" = "Widget Docka";
+"Esc key" = "Klawisz ESC";
+"Dock" = "Dock";
+"Unknown" = "Nienznay";
+"Now Playing" = "Aktualnie odtwarzane";
+"Control Center" = "Centrum sterowania";
+"Status" = "Status";
+"Never" = "Nigdy";
+"Instantly" = "Natychmiast";
+"1 second" = "1 sekunda";
+"5 seconds" = "5 sekund";
+"10 seconds" = "10 sekund";
+"30 seconds" = "30 sekund";
+"1 minute" = "1 minuta";
+"3 minutes" = "3 minuty";
+"More Than 1 Window" = "Więcej niż 1 okno";
+"Always" = "Zawsze";
+"Pock Options" = "Opcje";
+"Preferences…" = "Ustawienia";
+"Customize…" = "Dostosuj…";
+"Support this project" = "Wesprzyj projekt";
+"Quit Pock" = "Zamknij";
+"Checking…"= "Sprawdzanie…";
+"Installed version" = "Zainstalowana wersja";
+"Already on latest version" = "Najnowsza wersja";
+"Check for updates" = "Sprawdź aktualizacje";
+"New version available!" = "Nowa wersja dostępna!";
+"Download" = "Pobierz";
+"Later" = "Później";
+"No Playback" = "Brak treści";
+"Do you want to download version" = "Czy chcesz pobrać nową wersje?";
+"now?" = "teraz?";
+"Control Center Widget" = "Widget Centrum Sterowania";

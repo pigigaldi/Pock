@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Show Toggle Mute Item"; ObjectID = "0cO-cp-q0P"; */
+"0cO-cp-q0P.title" = "Pokaż przycisk wyciszania";
+
+/* Class = "NSButtonCell"; title = "Show Volume items"; ObjectID = "A1L-D1-Jwj"; */
+"A1L-D1-Jwj.title" = "Pokaż przyciski głośności";
+
+/* Class = "NSButtonCell"; title = "Show Volume Up Item"; ObjectID = "AJ4-PK-Oid"; */
+"AJ4-PK-Oid.title" = "Pokaż przycisk zgłaśniania";
+
+/* Class = "NSButtonCell"; title = "Show Lock item"; ObjectID = "OGc-Cn-VS5"; */
+"OGc-Cn-VS5.title" = "Pokaż przycisk blokowania ekranu";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Down item"; ObjectID = "S9t-Wy-9IV"; */
+"S9t-Wy-9IV.title" = "Pokaż przycisk zmniejszania jasności";
+
+/* Class = "NSButtonCell"; title = "Show Volume Down Item"; ObjectID = "Zze-FZ-vdx"; */
+"Zze-FZ-vdx.title" = "Pokaż przycisk ściszania";
+
+/* Class = "NSButtonCell"; title = "Show Sleep item"; ObjectID = "c9g-yA-umL"; */
+"c9g-yA-umL.title" = "Pokaż przycisk usypiania";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Up Item"; ObjectID = "zlO-nx-U7P"; */
+"zlO-nx-U7P.title" = "Pokaż przycisk zwiększania jasności";
+
+/* Class = "NSButtonCell"; title = "Show Brightness items"; ObjectID = "zt4-Gu-yzF"; */
+"zt4-Gu-yzF.title" = "Pokaż przyciski sterowania jasnością";

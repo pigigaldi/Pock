@@ -1,0 +1,18 @@
+
+/* Class = "NSButtonCell"; title = "Show in 24hr format"; ObjectID = "EeR-gT-koZ"; */
+"EeR-gT-koZ.title" = "Pokaż w formacie 24 godzinnym";
+
+/* Class = "NSButtonCell"; title = "Show Power item"; ObjectID = "OGc-Cn-VS5"; */
+"OGc-Cn-VS5.title" = "Pokaż informacje o zasilaniu";
+
+/* Class = "NSButtonCell"; title = "Show Battery Icon"; ObjectID = "S9t-Wy-9IV"; */
+"S9t-Wy-9IV.title" = "Pokaż ikonę baterii";
+
+/* Class = "NSButtonCell"; title = "Show Date item"; ObjectID = "Zze-FZ-vdx"; */
+"Zze-FZ-vdx.title" = "Pokaż datę";
+
+/* Class = "NSButtonCell"; title = "Show Wifi item"; ObjectID = "c9g-yA-umL"; */
+"c9g-yA-umL.title" = "Pokaż Wi-fi";
+
+/* Class = "NSButtonCell"; title = "Show Battery Percentage"; ObjectID = "zlO-nx-U7P"; */
+"zlO-nx-U7P.title" = "Pokaż stan baterii procentowo";

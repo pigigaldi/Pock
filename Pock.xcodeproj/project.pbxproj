@@ -178,6 +178,12 @@
 		34F27F2523428108001EBB6B /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
 		3BA42833BC69C895EB31DF93 /* Pods-Pock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pock/Pods-Pock.debug.xcconfig"; sourceTree = "<group>"; };
 		716D62071D19174E56D6E33D /* Pods-Pock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pock/Pods-Pock.release.xcconfig"; sourceTree = "<group>"; };
+		7747DB3C23453428006F2D1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/DockFolderController.strings; sourceTree = "<group>"; };
+		7747DB3D23453429006F2D1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/GeneralPreferencePane.strings; sourceTree = "<group>"; };
+		7747DB3E23453429006F2D1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/StatusWidgetPreferencePane.strings; sourceTree = "<group>"; };
+		7747DB3F23453429006F2D1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/ControlCenterWidgetPreferencePane.strings; sourceTree = "<group>"; };
+		7747DB4023453429006F2D1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/DockWidgetPreferencePane.strings; sourceTree = "<group>"; };
+		7747DB4123453429006F2D1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		863BE70CFBAC31BDBF35B1FD /* Pods_Pock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		881719822334CAFA00CEFF2B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/DockFolderController.strings; sourceTree = "<group>"; };
 		881719832334CAFA00CEFF2B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/GeneralPreferencePane.strings; sourceTree = "<group>"; };
@@ -675,6 +681,7 @@
 				it,
 				tr,
 				"zh-Hant",
+				pl,
 			);
 			mainGroup = 348343CD1F631B2E00CDA005;
 			productRefGroup = 348343D71F631B2E00CDA005 /* Products */;
@@ -885,6 +892,7 @@
 				34A8060422F6B97000621235 /* it */,
 				881719822334CAFA00CEFF2B /* tr */,
 				AAA3636F2333699C0016267D /* zh-Hant */,
+				7747DB3C23453428006F2D1F /* pl */,
 			);
 			name = DockFolderController.xib;
 			sourceTree = "<group>";
@@ -898,6 +906,7 @@
 				881719832334CAFA00CEFF2B /* tr */,
 				AAA363702333699C0016267D /* zh-Hant */,
 				96F29996231797C00055DA26 /* en */,
+				7747DB3D23453429006F2D1F /* pl */,
 			);
 			name = GeneralPreferencePane.xib;
 			sourceTree = "<group>";
@@ -911,6 +920,7 @@
 				AAA363712333699C0016267D /* zh-Hant */,
 				96F29990231797060055DA26 /* zh-Hans */,
 				96F299922317979D0055DA26 /* en */,
+				7747DB3E23453429006F2D1F /* pl */,
 			);
 			name = StatusWidgetPreferencePane.xib;
 			sourceTree = "<group>";
@@ -924,6 +934,7 @@
 				881719862334CAFA00CEFF2B /* tr */,
 				AAA363732333699C0016267D /* zh-Hant */,
 				96F2998E231795730055DA26 /* zh-Hans */,
+				7747DB4023453429006F2D1F /* pl */,
 			);
 			name = DockWidgetPreferencePane.xib;
 			sourceTree = "<group>";
@@ -937,6 +948,7 @@
 				AAA363722333699C0016267D /* zh-Hant */,
 				96F29998231798090055DA26 /* en */,
 				96F2999A2317980B0055DA26 /* zh-Hans */,
+				7747DB3F23453429006F2D1F /* pl */,
 			);
 			name = ControlCenterWidgetPreferencePane.xib;
 			sourceTree = "<group>";
@@ -949,6 +961,7 @@
 				34A8060922F6B97000621235 /* it */,
 				881719872334CAFA00CEFF2B /* tr */,
 				AAA363742333699C0016267D /* zh-Hant */,
+				7747DB4123453429006F2D1F /* pl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
