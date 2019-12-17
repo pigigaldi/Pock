@@ -1,0 +1,39 @@
+
+/* Class = "NSButtonCell"; title = "Show Volume Mute Item"; ObjectID = "0cO-cp-q0P"; */
+"0cO-cp-q0P.title" = "Mostrar ícone de mutar o volume";
+
+/* Class = "NSButtonCell"; title = "Show Screensaver Item"; ObjectID = "2xh-EW-PL2"; */
+"2xh-EW-PL2.title" = "Mostrar ícone de proteção de tela";
+
+/* Class = "NSButtonCell"; title = "Show Volume Items"; ObjectID = "A1L-D1-Jwj"; */
+"A1L-D1-Jwj.title" = "Mostrar ícones de volume";
+
+/* Class = "NSButtonCell"; title = "Show Volume Up Item"; ObjectID = "AJ4-PK-Oid"; */
+"AJ4-PK-Oid.title" = "Mostrar ícone de aumento de volume";
+
+/* Class = "NSButtonCell"; title = "Show Do Not Disturb Item"; ObjectID = "BRS-Qc-kaR"; */
+"BRS-Qc-kaR.title" = "Mostrar ícone Não perturbe";
+
+/* Class = "NSButtonCell"; title = "Show Lock Item"; ObjectID = "OGc-Cn-VS5"; */
+"OGc-Cn-VS5.title" = "Mostrar ícone de bloqueio";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Down Item"; ObjectID = "S9t-Wy-9IV"; */
+"S9t-Wy-9IV.title" = "Mostrar ícone de redução de brilho";
+
+/* Class = "NSButtonCell"; title = "Show Volume Down Item"; ObjectID = "Zze-FZ-vdx"; */
+"Zze-FZ-vdx.title" = "Mostrar ícone de redução de volume";
+
+/* Class = "NSButtonCell"; title = "Show Sleep Item"; ObjectID = "c9g-yA-umL"; */
+"c9g-yA-umL.title" = "Mostrar ícone de suspensão";
+
+/* Class = "NSButtonCell"; title = "Show Volume Toggle Item"; ObjectID = "oTc-dK-63V"; */
+"oTc-dK-63V.title" = "Mostrar ícone de alternância de volume";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Toggle Item"; ObjectID = "po1-9a-abU"; */
+"po1-9a-abU.title" = "Mostrar ícone de alternância de brilho";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Up Item"; ObjectID = "zlO-nx-U7P"; */
+"zlO-nx-U7P.title" = "Mostrar ícone de aumento de brilho";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Items"; ObjectID = "zt4-Gu-yzF"; */
+"zt4-Gu-yzF.title" = "Mostrar ícones de brilho";

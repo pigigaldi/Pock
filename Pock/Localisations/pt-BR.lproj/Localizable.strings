@@ -1,0 +1,47 @@
+/*
+ Localizable.strings
+ Pock
+ 
+ Created by Licardo on 2019/7/6.
+ Copyright © 2019 Pierluigi Galdi. All rights reserved.
+ */
+
+"General" = "Geral";
+"Status Widget" = "Status Widget";
+"Dock Widget" = "Dock Widget";
+"Esc key" = "Tecla Esc";
+"Dock" = "Dock";
+"Unknown" = "Desconhecido";
+"Now Playing" = "Tocando agora";
+"Control Center" = "Centro de controle";
+"Status" = "Status";
+"Never" = "Nunca";
+"Instantly" = "Imediatamente";
+"1 second" = "1 segundo";
+"5 seconds" = "5 segundos";
+"10 seconds" = "10 segundos";
+"30 seconds" = "30 segundos";
+"1 minute" = "1 minuto";
+"3 minutes" = "3 minutos";
+"More Than 1 Window" = "Mais de 1 janela";
+"Always" = "Sempre";
+"Pock Options" = "Opções do Pock";
+"Preferences…" = "Preferências…";
+"Customize…" = "Customizar…";
+"Support this project" = "Apoie este projeto";
+"Quit Pock" = "Sair do Pock";
+"Checking…"= "Verificando…";
+"Installed version" = "Versão instalada";
+"Already on latest version" = "Já na versão mais recente";
+"Check for updates" = "Verifique se há atualizações";
+"New version available!" = "Nova versão disponível!";
+"Download" = "Download";
+"Later" = "Mais tarde";
+"No Playback" = "Sem reprodução";
+"Do you want to download version" = "Você quer baixar a nova versão";
+"now?" = "agora?";
+"Control Center Widget" = "Widget do Centro de Controle";
+"windows" = "janelas";
+"Loading..." = "Carregando...";
+"elements" = "elementos";
+"Trash" = "Lixeira";

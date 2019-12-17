@@ -215,6 +215,13 @@
 		AAA363712333699C0016267D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/StatusWidgetPreferencePane.strings"; sourceTree = "<group>"; };
 		AAA363722333699C0016267D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/ControlCenterWidgetPreferencePane.strings"; sourceTree = "<group>"; };
 		AAA363742333699C0016267D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		ABFB9DF323A92005007DE2E6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/DockFolderController.strings"; sourceTree = "<group>"; };
+		ABFB9DF423A92005007DE2E6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/GeneralPreferencePane.strings"; sourceTree = "<group>"; };
+		ABFB9DF523A92005007DE2E6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/StatusWidgetPreferencePane.strings"; sourceTree = "<group>"; };
+		ABFB9DF623A92005007DE2E6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ControlCenterWidgetPreferencePane.strings"; sourceTree = "<group>"; };
+		ABFB9DF723A92005007DE2E6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/DockWidgetPreferencePane.strings"; sourceTree = "<group>"; };
+		ABFB9DF823A92005007DE2E6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/NowPlayingPreferencePane.strings"; sourceTree = "<group>"; };
+		ABFB9DF923A92005007DE2E6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -693,6 +700,7 @@
 				it,
 				tr,
 				"zh-Hant",
+				"pt-BR",
 			);
 			mainGroup = 348343CD1F631B2E00CDA005;
 			productRefGroup = 348343D71F631B2E00CDA005 /* Products */;
@@ -895,6 +903,7 @@
 				3482609F23A687820053432B /* zh-Hant */,
 				348260A123A687820053432B /* it */,
 				348260A323A687830053432B /* tr */,
+				ABFB9DF823A92005007DE2E6 /* pt-BR */,
 			);
 			name = NowPlayingPreferencePane.xib;
 			sourceTree = "<group>";
@@ -908,6 +917,7 @@
 				34A8060422F6B97000621235 /* it */,
 				881719822334CAFA00CEFF2B /* tr */,
 				AAA3636F2333699C0016267D /* zh-Hant */,
+				ABFB9DF323A92005007DE2E6 /* pt-BR */,
 			);
 			name = DockFolderController.xib;
 			sourceTree = "<group>";
@@ -921,6 +931,7 @@
 				881719832334CAFA00CEFF2B /* tr */,
 				AAA363702333699C0016267D /* zh-Hant */,
 				96F29996231797C00055DA26 /* en */,
+				ABFB9DF423A92005007DE2E6 /* pt-BR */,
 			);
 			name = GeneralPreferencePane.xib;
 			sourceTree = "<group>";
@@ -934,6 +945,7 @@
 				AAA363712333699C0016267D /* zh-Hant */,
 				96F29990231797060055DA26 /* zh-Hans */,
 				96E3DD8C2357258600AA719D /* en */,
+				ABFB9DF523A92005007DE2E6 /* pt-BR */,
 			);
 			name = StatusWidgetPreferencePane.xib;
 			sourceTree = "<group>";
@@ -947,6 +959,7 @@
 				96E468B32351BC7900A20E56 /* zh-Hant */,
 				96E468B42351BC7B00A20E56 /* it */,
 				96E468B52351BC7F00A20E56 /* tr */,
+				ABFB9DF723A92005007DE2E6 /* pt-BR */,
 			);
 			name = DockWidgetPreferencePane.xib;
 			sourceTree = "<group>";
@@ -960,6 +973,7 @@
 				AAA363722333699C0016267D /* zh-Hant */,
 				96F2999A2317980B0055DA26 /* zh-Hans */,
 				96E7A15A239BA74E00CB4C4C /* en */,
+				ABFB9DF623A92005007DE2E6 /* pt-BR */,
 			);
 			name = ControlCenterWidgetPreferencePane.xib;
 			sourceTree = "<group>";
@@ -972,6 +986,7 @@
 				34A8060922F6B97000621235 /* it */,
 				881719872334CAFA00CEFF2B /* tr */,
 				AAA363742333699C0016267D /* zh-Hant */,
+				ABFB9DF923A92005007DE2E6 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
