@@ -3,13 +3,13 @@
 "6HU-p8-WWc.title" = "EE dd MMM HH:mm";
 
 /* Class = "NSTextFieldCell"; title = "Time Format:"; ObjectID = "6tU-S4-ovU"; */
-"6tU-S4-ovU.title" = "Time Format:";
+"6tU-S4-ovU.title" = "Tarih Formatı:";
 
 /* Class = "NSButtonCell"; title = "Show Power item"; ObjectID = "OGc-Cn-VS5"; */
 "OGc-Cn-VS5.title" = "Güç Ögelerini Göster";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Time Format Help"; ObjectID = "QDl-u9-yz3"; */
-"QDl-u9-yz3.ibShadowedToolTip" = "Time Format Help";
+"QDl-u9-yz3.ibShadowedToolTip" = "Tarih Formatı Yardımı";
 
 /* Class = "NSButtonCell"; title = "Show Battery Icon"; ObjectID = "S9t-Wy-9IV"; */
 "S9t-Wy-9IV.title" = "Batarya İkonunu Göster";

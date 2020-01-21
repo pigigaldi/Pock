@@ -1,6 +1,6 @@
 
 /* Class = "NSButtonCell"; title = "Hide Persistent Items"; ObjectID = "1qS-MJ-ICj"; */
-"1qS-MJ-ICj.title" = "Kalıcı Öğeleri Gizle";
+"1qS-MJ-ICj.title" = "Kalıcı Ögeleri Gizle";
 
 /* Class = "NSTextFieldCell"; title = "Notification badge refresh rate:"; ObjectID = "ICj-g3-VIO"; */
 "ICj-g3-VIO.title" = "Bildirim rozeti yenileme sıklığı:";
@@ -39,7 +39,7 @@
 "qS6-8X-eGs.title" = "Sadece çalışan uygulamaları göster";
 
 /* Class = "NSTextFieldCell"; title = "Open App Exposé:"; ObjectID = "r6d-m5-Q8l"; */
-"r6d-m5-Q8l.title" = "Open App Exposé:";
+"r6d-m5-Q8l.title" = "Uygulama Açma Şekli:";
 
 /* Class = "NSButtonCell"; title = "Hide Trash"; ObjectID = "vFP-uA-jfm"; */
 "vFP-uA-jfm.title" = "Çöp Sepetini gizle";

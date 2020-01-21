@@ -1,39 +1,39 @@
 
 /* Class = "NSButtonCell"; title = "Show Volume Mute Item"; ObjectID = "0cO-cp-q0P"; */
-"0cO-cp-q0P.title" = "Show Volume Mute Item";
+"0cO-cp-q0P.title" = "Ses Kapatma Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Screensaver Item"; ObjectID = "2xh-EW-PL2"; */
-"2xh-EW-PL2.title" = "Show Screensaver Item";
+"2xh-EW-PL2.title" = "Ekran Koruyucu Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Volume Items"; ObjectID = "A1L-D1-Jwj"; */
 "A1L-D1-Jwj.title" = "Ses Ögelerini Göster";
 
 /* Class = "NSButtonCell"; title = "Show Volume Up Item"; ObjectID = "AJ4-PK-Oid"; */
-"AJ4-PK-Oid.title" = "Ses Açmayı Göster";
+"AJ4-PK-Oid.title" = "Ses Arttırma Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Do Not Disturb Item"; ObjectID = "BRS-Qc-kaR"; */
-"BRS-Qc-kaR.title" = "Show Do Not Disturb Item";
+"BRS-Qc-kaR.title" = "Rahatsız Etme Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Lock Item"; ObjectID = "OGc-Cn-VS5"; */
-"OGc-Cn-VS5.title" = "Kilitlemeyi Göster";
+"OGc-Cn-VS5.title" = "Kilitleme Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Brightness Down Item"; ObjectID = "S9t-Wy-9IV"; */
-"S9t-Wy-9IV.title" = "Parlaklık Azaltmayı Göster";
+"S9t-Wy-9IV.title" = "Parlaklık Azaltma Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Volume Down Item"; ObjectID = "Zze-FZ-vdx"; */
-"Zze-FZ-vdx.title" = "Ses Azaltmayı Göster";
+"Zze-FZ-vdx.title" = "Ses Azaltma Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Sleep item"; ObjectID = "c9g-yA-umL"; */
-"c9g-yA-umL.title" = "Uyku Ögesini Göster";
+"c9g-yA-umL.title" = "Uyku Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Volume Toggle Item"; ObjectID = "oTc-dK-63V"; */
-"oTc-dK-63V.title" = "Show Volume Toggle Item";
+"oTc-dK-63V.title" = "Ses Değiştiriciyi Göster";
 
 /* Class = "NSButtonCell"; title = "Show Brightness Toggle Item"; ObjectID = "po1-9a-abU"; */
-"po1-9a-abU.title" = "Show Brightness Toggle Item";
+"po1-9a-abU.title" = "Parlaklığı Değiştiriciyi Göster";
 
 /* Class = "NSButtonCell"; title = "Show Brightness Up Item"; ObjectID = "zlO-nx-U7P"; */
-"zlO-nx-U7P.title" = "Parlaklık Arttırmayı Göster";
+"zlO-nx-U7P.title" = "Parlaklık Arttırma Butonunu Göster";
 
 /* Class = "NSButtonCell"; title = "Show Brightness Items"; ObjectID = "zt4-Gu-yzF"; */
 "zt4-Gu-yzF.title" = "Parlaklık Ögelerini Göster";
