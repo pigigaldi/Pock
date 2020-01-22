@@ -25,14 +25,21 @@ The PRs that are currently opened will be merged manually in the dedicated widge
 If you want to support this project, you can [click here](https://paypal.me/pigigaldi)!
 Pock will always be available as free software!
 
+## Install
+Using brew:
+```
+brew cask install pock
+```
 
+Manually:
+- Go to the [latest release](https://pock.dev) and click Download.
+- Unzip the archive by running `unzip` or double-clicking on the file.
+- Move the file to `/Applications`
 
-## How To Enable
+## Usage 
 
-1. Move Pock to your Applications folder
-2. Open Pock
-3. If you don't see Pock in your Touch Bar, go to the `Keyboard` pane in System Preferences and select "Touch Bar shows _App Controls_."
-
+1. Open Pock
+2. If you don't see Pock in your Touch Bar, go to the `Keyboard` pane in System Preferences and select "Touch Bar shows _App Controls_."
 
 
 ## Widgets
