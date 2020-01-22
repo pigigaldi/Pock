@@ -1,6 +1,6 @@
 <p align="center"><img src="https://pock.dev/assets/img/brand/web-icon-black.png" width="96"/></p>
-<p align="center">Display macOS Dock in Touch Bar.</p>
-<p align="center">It's free and open source, and it also brings some minimalistic widgets with it!
+<p align="center">Display macOS Dock in TouchBar.</p>
+<p align="center">It's free and open-source, and it also brings some minimalistic widgets with it!
 </p>
 <p align="center">
   <img width="800" src="https://pock.dev/assets/img/preview/pock_widgets.png"/>
@@ -31,7 +31,7 @@ Pock will always be available as free software!
 
 1. Move Pock to your Applications folder
 2. Open Pock
-3. If you don't see Pock in your Touch Bar, go to the `Keyboard` pane in System Preferences and select "Touch Bar shows _App Controls_."
+3. If you don't see Pock in your Touch Bar, go to the `Keyboard` pane in System Preferences and select "TouchBar shows _App Controls_."
 
 
 
@@ -42,7 +42,7 @@ Pock will always be available as free software!
 ##### Dock widget
 
 Your macOS Dock inside your MacBook's TouchBar, the core widget.
-It comes with fully-functional badge support so you will not miss any notification.
+It comes with fully-functional badge support so you won't miss any notification.
 More features can be configured in widget settings along with other preferences.
 It now includes multi-window support!
 *Enjoy your screen in full-size every time!*
@@ -84,7 +84,7 @@ A handy ESC button is there, just in case, so you don't have to hide Pock to acc
 
 ##### Status widget
 
-Always keep an eye on system information, like what time is it, or maybe WiFi status or Battery status. Configure Status items from settings.
+Always keep an eye on your system information, like what time is it, or maybe WiFi status or battery status. Configure Status items from settings.
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_status_widget.png"/>
@@ -94,8 +94,8 @@ Always keep an eye on system information, like what time is it, or maybe WiFi st
 
 ##### Control Center widget
 
-Change screen brightness or system volume with easy controls.
-Long press or slide on control center item to invoke sliders.
+Change your screen brightness or system volume with easier controls.
+Long-press or slide on control center item to invoke sliders.
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_control_center_widget.png"/>
@@ -106,7 +106,7 @@ Long press or slide on control center item to invoke sliders.
 ##### More...
 
 More widgets are coming!
-Keep search for #pock on social media to be updated on future widgets releases!
+Keep looking for #pock on social media to be updated on future widgets releases!
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_more_widget.png"/>
@@ -116,7 +116,7 @@ Keep search for #pock on social media to be updated on future widgets releases!
 
 ## Preferences
 
-You can adjust Pock and widgets settings to reflects your specific needs. You can access these panes from the **Preferences** menu item.
+You can adjust Pock and its widgets settings to reflects your specific needs. You can access these panes from the **Preferences** menu item.
 
 <div display="float">
   <img width="262" src="https://pock.dev/assets/img/preview/preferences/preference_dock_widget.png"/>
@@ -126,7 +126,7 @@ You can adjust Pock and widgets settings to reflects your specific needs. You ca
 
 ## Customize
 
-You can customize the widget position in TouchBar from the **Customize** menu item.
+You can customize the widget position in your TouchBar from the **Customize** menu item.
 
 <div align="left">
   <img src="https://pock.dev/assets/img/preview/pock_customize.png"/>
@@ -137,7 +137,7 @@ You can customize the widget position in TouchBar from the **Customize** menu it
 ## Developers
 
 <p align="left">Do you want to build a custom widget for Pock?
-  Soon you will be able to do it, with <b>PockKit</b>!
+ You will soon be able to do such, with <b>PockKit</b>!
 </p>
 
 <div align="center">
@@ -152,7 +152,7 @@ You can customize the widget position in TouchBar from the **Customize** menu it
 * [SnapKit](https://github.com/SnapKit/SnapKit)
 * [Magnet, LoginServiceKit](https://github.com/Clipy)
 * [touch-baer](https://github.com/a2/touch-baer) - How to put icon in Control Strip
-* [Minebomber](https://stackoverflow.com/a/36115210) - This comment blowed my mind
+* [Minebomber](https://stackoverflow.com/a/36115210) - This comment blew my mind
 * [Defaults, Preferences](https://github.com/sindresorhus/)
 * [Witness](https://github.com/njdehoog/Witness)
 
@@ -161,6 +161,7 @@ You can customize the widget position in TouchBar from the **Customize** menu it
 ## Translated READMEs
 
 🇺🇸 [English](README.md)
+🇫🇷 [Français](.github/readmes/README.fr.md)
 🇨🇳 [中文](.github/readmes/README.cn.md)
 🇯🇵 [日本語](.github/readmes/README.ja.md)
 🇹🇷 [Türkçe](.github/readmes/README.tr.md)
