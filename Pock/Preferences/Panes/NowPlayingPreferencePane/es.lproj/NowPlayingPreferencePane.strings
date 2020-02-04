@@ -1,0 +1,9 @@
+
+/* Class = "NSButtonCell"; title = "Animate widget icon while playing"; ObjectID = "8Rh-se-AKA"; */
+"8Rh-se-AKA.title" = "Animar el icono del widget mientras se reproduce";
+
+/* Class = "NSButtonCell"; title = "Hide the widget when there is no item playing"; ObjectID = "krA-nL-skn"; */
+"krA-nL-skn.title" = "Ocultar el widget cuando no hay ninguna reproducción";
+
+/* Class = "NSTextFieldCell"; title = "Choose the widget style:"; ObjectID = "ooI-7i-Wfp"; */
+"ooI-7i-Wfp.title" = "Elige el estilo del widget:";

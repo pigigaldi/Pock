@@ -1,20 +1,20 @@
 /* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "0Zd-e7-34p"; */
-"0Zd-e7-34p.title" = "Başlangıçta çalıştır";
+"0Zd-e7-34p.title" = "Abrir al iniciar sesión";
 
 /* Class = "NSButtonCell"; title = "Hide Control Strip"; ObjectID = "206-HT-yI6"; */
-"206-HT-yI6.title" = "Control Strip'i gizle";
+"206-HT-yI6.title" = "Ocultar el control";
 
 /* Class = "NSTextFieldCell"; title = "Double press `⌃ Control` key to toggle between Pock and System Touch Bar."; ObjectID = "5UW-Vr-bYf"; */
-"5UW-Vr-bYf.title" = "Pock ve sistem Toucj Bar'ı arasında geçiş yapmak için `⌃ Control` tuşuna iki kez basın.";
+"5UW-Vr-bYf.title" = "Presiona dos veces la tecla `⌃ Control` para alternar entre el Pock y la barra táctil del sistema";
 
 /* Class = "NSTextFieldCell"; title = "VERSION"; ObjectID = "K9v-5R-z7Q"; */
-"K9v-5R-z7Q.title" = "Versiyon";
+"K9v-5R-z7Q.title" = "VERSIÓN";
 
 /* Class = "NSButtonCell"; title = "Check for updates"; ObjectID = "MJG-ij-J6R"; */
-"MJG-ij-J6R.title" = "Güncellemeleri denetle";
+"MJG-ij-J6R.title" = "Comprobar si hay actualizaciones";
 
 /* Class = "NSTextFieldCell"; title = "Pock"; ObjectID = "aMA-Da-MZq"; */
 "aMA-Da-MZq.title" = "Pock";
 
 /* Class = "NSButtonCell"; title = "Check for updates once a day"; ObjectID = "wxD-tO-31t"; */
-"wxD-tO-31t.title" = "Günde bir kez güncellemeleri denetle.";
+"wxD-tO-31t.title" = "Busca actualizaciones una vez al día";

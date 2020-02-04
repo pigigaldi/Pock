@@ -1,0 +1,39 @@
+
+/* Class = "NSButtonCell"; title = "Show Volume Mute Item"; ObjectID = "0cO-cp-q0P"; */
+"0cO-cp-q0P.title" = "Mostrar el botón de silencio del volumen";
+
+/* Class = "NSButtonCell"; title = "Show Screensaver Item"; ObjectID = "2xh-EW-PL2"; */
+"2xh-EW-PL2.title" = "Mostrar el botón para activar el salvapantallas";
+
+/* Class = "NSButtonCell"; title = "Show Volume Items"; ObjectID = "A1L-D1-Jwj"; */
+"A1L-D1-Jwj.title" = "Mostrar el volumen";
+
+/* Class = "NSButtonCell"; title = "Show Volume Up Item"; ObjectID = "AJ4-PK-Oid"; */
+"AJ4-PK-Oid.title" = "Mostrar el botón para incrementar el volumen";
+
+/* Class = "NSButtonCell"; title = "Show Do Not Disturb Item"; ObjectID = "BRS-Qc-kaR"; */
+"BRS-Qc-kaR.title" = "Mostrar el botón de 'No molestar'";
+
+/* Class = "NSButtonCell"; title = "Show Lock Item"; ObjectID = "OGc-Cn-VS5"; */
+"OGc-Cn-VS5.title" = "Mostrar el botón para bloquear";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Down Item"; ObjectID = "S9t-Wy-9IV"; */
+"S9t-Wy-9IV.title" = "Mostrar el botón para bajar el brillo";
+
+/* Class = "NSButtonCell"; title = "Show Volume Down Item"; ObjectID = "Zze-FZ-vdx"; */
+"Zze-FZ-vdx.title" = "Mostrar el botón para bajar el volumen";
+
+/* Class = "NSButtonCell"; title = "Show Sleep Item"; ObjectID = "c9g-yA-umL"; */
+"c9g-yA-umL.title" = "Mostrar el botón para entrar en reposo";
+
+/* Class = "NSButtonCell"; title = "Show Volume Toggle Item"; ObjectID = "oTc-dK-63V"; */
+"oTc-dK-63V.title" = "Mostrar el botón de cambio de volumen";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Toggle Item"; ObjectID = "po1-9a-abU"; */
+"po1-9a-abU.title" = "Mostrar el botón de cambio de brillo";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Up Item"; ObjectID = "zlO-nx-U7P"; */
+"zlO-nx-U7P.title" = "Mostrar el botón para subir el brillo";
+
+/* Class = "NSButtonCell"; title = "Show Brightness Items"; ObjectID = "zt4-Gu-yzF"; */
+"zt4-Gu-yzF.title" = "Mostrar el brillo";

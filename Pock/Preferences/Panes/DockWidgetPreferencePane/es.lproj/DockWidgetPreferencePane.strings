@@ -1,0 +1,45 @@
+
+/* Class = "NSButtonCell"; title = "Hide Persistent Items"; ObjectID = "1qS-MJ-ICj"; */
+"1qS-MJ-ICj.title" = "Ocultar artículos persistentes";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "2At-Ch-OCx"; */
+"2At-Ch-OCx.title" = "Ítem 3";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "HIz-zB-e7Z"; */
+"HIz-zB-e7Z.title" = "Ítem 2";
+
+/* Class = "NSTextFieldCell"; title = "Notification badge refresh rate:"; ObjectID = "ICj-g3-VIO"; */
+"ICj-g3-VIO.title" = "Tasa de actualización del contador de notificaciones:";
+
+/* Class = "NSButtonCell"; title = "Hide Finder"; ObjectID = "PDB-GT-mUQ"; */
+"PDB-GT-mUQ.title" = "Ocultar Finder";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "UnW-lx-nml"; */
+"UnW-lx-nml.title" = "Ítem 2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "Yra-28-ozo"; */
+"Yra-28-ozo.title" = "Ítem 3";
+
+/* Class = "NSTextFieldCell"; placeholderString = "8pt"; ObjectID = "aXg-gA-VhE"; */
+"aXg-gA-VhE.placeholderString" = "8pt";
+
+/* Class = "NSButtonCell"; title = "Opens Finder and directories inside Pock"; ObjectID = "ckK-v4-yvT"; */
+"ckK-v4-yvT.title" = "Abre el Finder y los directorios dentro de Pock";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "fzh-TY-1IX"; */
+"fzh-TY-1IX.title" = "Ítem 1";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "pRj-TS-f3F"; */
+"pRj-TS-f3F.title" = "Ítem 1";
+
+/* Class = "NSTextFieldCell"; title = "Item spacing:"; ObjectID = "qJw-Vc-w0w"; */
+"qJw-Vc-w0w.title" = "Distancia entre los elementos:";
+
+/* Class = "NSButtonCell"; title = "Show only running apps"; ObjectID = "qS6-8X-eGs"; */
+"qS6-8X-eGs.title" = "Mostrar sólo aplicaciones en ejecución";
+
+/* Class = "NSTextFieldCell"; title = "Open App Exposé:"; ObjectID = "r6d-m5-Q8l"; */
+"r6d-m5-Q8l.title" = "Abrir app:";
+
+/* Class = "NSButtonCell"; title = "Hide Trash"; ObjectID = "vFP-uA-jfm"; */
+"vFP-uA-jfm.title" = "Ocultar papelera";

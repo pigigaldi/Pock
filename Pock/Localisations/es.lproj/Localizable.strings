@@ -1,0 +1,48 @@
+/*
+ Localizable.strings
+ Pock
+ 
+ Created by Licardo on 2019/7/6.
+ Copyright © 2019 Pierluigi Galdi. All rights reserved.
+ */
+
+"General" = "General";
+"Status Widget" = "Estado del widget";
+"Dock Widget" = "Dock widget";
+"Esc key" = "Tecla Esc";
+"Dock" = "Dock";
+"Unknown" = "Desconocido";
+"Now Playing" = "Reproduciendo ahora";
+"Now Playing Widget" = "Widget de reproducción";
+"Control Center" = "Centro de control";
+"Status" = "Estado";
+"Never" = "Nunca";
+"Instantly" = "Al instante";
+"1 second" = "1 segundo";
+"5 seconds" = "5 segundos";
+"10 seconds" = "10 segundos";
+"30 seconds" = "30 segundos";
+"1 minute" = "1 minuto";
+"3 minutes" = "3 minutos";
+"More Than 1 Window" = "Más de una ventana";
+"Always" = "Siempre";
+"Pock Options" = "Opciones de Pock";
+"Preferences…" = "Preferencias...";
+"Customize…" = "Personalizar...";
+"Support this project" = "Apoya este proyecto";
+"Quit Pock" = "Salir de Pock";
+"Checking…"= "Comprobando...";
+"Installed version" = "Versión instalada";
+"Already on latest version" = "Ya tienes la última versión";
+"Check for updates" = "Comprobar si hay actualizaciones";
+"New version available!" = "¡Nueva versión disponible!";
+"Download" = "Descargar";
+"Later" = "Después";
+"No Playback" = "No se reproduce nada";
+"Do you want to download version" = "¿Quieres descargar la versión?";
+"now?" = "ahora?";
+"Control Center Widget" = "Centro de control del widget";
+"windows" = "ventanas";
+"Loading..." = "Cargando...";
+"elements" = "elementos";
+"Trash" = "Papelera";
