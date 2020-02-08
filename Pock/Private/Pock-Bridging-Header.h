@@ -12,3 +12,4 @@
 #import "./KeySenderHelper/KeySenderHelper.h"
 #import "./ISSoundAdditions/ISSoundAdditions.h"
 #import "./SystemHelper/SystemHelper.h"
+#import "./DKBrightness/CoreDisplayPrivateAPI.h"

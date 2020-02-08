@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		009B0E12E317757741CE38C8 /* Pods_Pock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863BE70CFBAC31BDBF35B1FD /* Pods_Pock.framework */; };
+		127C73A423EEAC7C00D6DDF9 /* CoreDisplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127C73A323EEAC7C00D6DDF9 /* CoreDisplay.framework */; };
 		34064337227E224700981372 /* DockFolderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34064336227E224700981372 /* DockFolderController.swift */; };
 		3406433E227ED8BC00981372 /* DockFolderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3406433D227ED8BC00981372 /* DockFolderItemView.swift */; };
 		34064343227EDC2200981372 /* DockFolderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34064342227EDC2200981372 /* DockFolderRepository.swift */; };
@@ -88,6 +89,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		127C73A223EEAADE00D6DDF9 /* CoreDisplayPrivateAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDisplayPrivateAPI.h; sourceTree = "<group>"; };
+		127C73A323EEAC7C00D6DDF9 /* CoreDisplay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreDisplay.framework; path = ../../../../../System/Library/Frameworks/CoreDisplay.framework; sourceTree = "<group>"; };
 		34064336227E224700981372 /* DockFolderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockFolderController.swift; sourceTree = "<group>"; };
 		3406433D227ED8BC00981372 /* DockFolderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockFolderItemView.swift; sourceTree = "<group>"; };
 		34064342227EDC2200981372 /* DockFolderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockFolderRepository.swift; sourceTree = "<group>"; };
@@ -222,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127C73A423EEAC7C00D6DDF9 /* CoreDisplay.framework in Frameworks */,
 				34F27F2923428174001EBB6B /* login.framework in Frameworks */,
 				349431ED22197485008622B1 /* MediaRemote.framework in Frameworks */,
 				34BC3ECC2210B2EC00C1DD3C /* DFRFoundation.framework in Frameworks */,
@@ -428,6 +432,7 @@
 			isa = PBXGroup;
 			children = (
 				342D83B02278D5CF000D79DA /* DKBrightness.swift */,
+				127C73A223EEAADE00D6DDF9 /* CoreDisplayPrivateAPI.h */,
 			);
 			path = DKBrightness;
 			sourceTree = "<group>";
@@ -626,6 +631,7 @@
 		4ED8D081458713BE440562D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				127C73A323EEAC7C00D6DDF9 /* CoreDisplay.framework */,
 				34F27F2523428108001EBB6B /* LaunchAtLogin.framework */,
 				347F335D22D0D5F600FA9805 /* login.framework */,
 				3494320B222179D7008622B1 /* BatteryUIKit.framework */,
