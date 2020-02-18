@@ -45,7 +45,7 @@ class NowPlayingItemView: PKDetailView {
         case "com.apple.WebKit.WebContent":
             appBundleIdentifier = "com.apple.Safari"
         case "com.spotify.client", "com.apple.iTunes", "com.apple.Safari", "com.google.Chrome", "com.netease.163music", "com.tencent.QQMusicMac",
-             "com.xiami.macclient", "com.apple.Music":
+             "com.xiami.macclient", "com.apple.Music", "com.tidal.desktop":
             break
         default:
             if #available(macOS 10.15, *) {
