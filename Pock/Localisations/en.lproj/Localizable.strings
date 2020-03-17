@@ -7,14 +7,12 @@
  */
 
 "General" = "General";
-"Status Widget" = "Status Widget";
-"Dock Widget" = "Dock Widget";
-"Esc key" = "Esc key";
 "Dock" = "Dock";
-"Unknown" = "Unknown";
-"Now Playing" = "Now Playing";
-"Control Center" = "Control Center";
 "Status" = "Status";
+"Control Center" = "Control Center";
+"Now Playing" = "Now Playing";
+"Esc key" = "Esc key";
+"Unknown" = "Unknown";
 "Never" = "Never";
 "Instantly" = "Instantly";
 "1 second" = "1 second";
@@ -37,11 +35,13 @@
 "New version available!" = "New version available!";
 "Download" = "Download";
 "Later" = "Later";
-"No Playback" = "No Playback";
 "Do you want to download version" = "Do you want to download version";
 "now?" = "now?";
-"Control Center Widget" = "Control Center Widget";
 "windows" = "windows";
 "Loading..." = "Loading...";
 "elements" = "elements";
 "Trash" = "Trash";
+"Tap here" = "Tap here";
+"to play music" = "to play music";
+"Missing title" = "Missing title";
+"Unknown artist" = "Unknown artist";

@@ -24,7 +24,7 @@ class DockWidgetPreferencePane: NSViewController, PreferencePane {
     /// Preferenceable
     var preferencePaneIdentifier: Identifier = Identifier.dock_widget
 
-    let preferencePaneTitle:      String     = "Dock Widget".localized
+    let preferencePaneTitle:      String     = "Dock".localized
     var toolbarItemIcon: NSImage {
         let path = NSWorkspace.shared.absolutePathForApplication(withBundleIdentifier: "com.apple.dock")!
         return NSWorkspace.shared.icon(forFile: path)

@@ -7,14 +7,12 @@
  */
 
 "General" = "一般";
-"Status Widget" = "狀態小工具";
-"Dock Widget" = "Dock 小工具";
-"Esc key" = "Esc 鍵";
 "Dock" = "Dock";
-"Unknown" = "未知";
-"Now Playing" = "現正播放";
-"Control Center" = "控制中心";
 "Status" = "狀態";
+"Control Center" = "控制中心";
+"Now Playing" = "現正播放";
+"Esc key" = "Esc 鍵";
+"Unknown" = "未知";
 "Never" = "永不";
 "Instantly" = "立即";
 "1 second" = "1 秒";
@@ -37,11 +35,13 @@
 "New version available!" = "已推出新版本！";
 "Download" = "下載";
 "Later" = "晚點";
-"No Playback" = "沒有播放";
 "Do you want to download version" = "你想要立即下載版本";
 "now?" = "嗎？";
-"Control Center Widget" = "控制中心小工具";
 "windows" = "個窗口";
 "Loading..." = "載入中...";
 "elements" = "個項目";
 "Trash" = "垃圾桶";
+"Tap here" = "點按此處";
+"to play music" = "來播放音樂";
+"Missing title" = "丟失名稱";
+"Unknown artist" = "未知歌手";

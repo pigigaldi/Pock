@@ -7,14 +7,12 @@
  */
 
 "General" = "Impostazioni";
-"Status Widget" = "Status Widget";
-"Dock Widget" = "Dock Widget";
-"Esc key" = "Tasto Esc";
 "Dock" = "Dock";
-"Unknown" = "Sconosciuto";
-"Now Playing" = "In riproduzione";
-"Control Center" = "Centro di Controllo";
 "Status" = "Barra di stato";
+"Control Center" = "Centro di Controllo";
+"Now Playing" = "In riproduzione";
+"Esc key" = "Tasto Esc";
+"Unknown" = "Sconosciuto";
 "Never" = "Mai";
 "Instantly" = "Istanteneo";
 "1 second" = "1 secondo";
@@ -37,10 +35,8 @@
 "New version available!" = "Nuova versione disponibile!";
 "Download" = "Scarica";
 "Later" = "Più tardi";
-"No Playback" = "Nessun contenuto";
 "Do you want to download version" = "Vuoi scaricare la versione";
 "now?" = "adesso?";
-"Control Center Widget" = "Control Center Widget";
 "windows" = "windows";
 "Loading..." = "Loading...";
 "elements" = "elements";

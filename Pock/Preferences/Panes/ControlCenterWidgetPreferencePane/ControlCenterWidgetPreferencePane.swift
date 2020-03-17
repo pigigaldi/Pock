@@ -28,7 +28,7 @@ class ControlCenterWidgetPreferencePane: NSViewController, PreferencePane {
     
     /// Preferenceable
     var preferencePaneIdentifier: Identifier = Identifier.controler_center_widget
-    let preferencePaneTitle:      String     = "Control Center Widget".localized
+    let preferencePaneTitle:      String     = "Control Center".localized
     var toolbarItemIcon:          NSImage    = NSImage(named: "ControlCenterWidget")!
     
     override var nibName: NSNib.Name? {

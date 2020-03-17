@@ -14,7 +14,7 @@ class NowPlayingPreferencePane: NSViewController, PreferencePane {
 
     /// Preferenceable
     var preferencePaneIdentifier: Identifier = Identifier.now_playing_widget
-    let preferencePaneTitle:      String     = "Now Playing Widget".localized
+    let preferencePaneTitle:      String     = "Now Playing".localized
     var toolbarItemIcon:          NSImage {
         let id: String
         if #available(macOS 10.15, *) {
