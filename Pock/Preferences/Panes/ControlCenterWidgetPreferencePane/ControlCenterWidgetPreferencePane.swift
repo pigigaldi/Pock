@@ -27,7 +27,7 @@ class ControlCenterWidgetPreferencePane: NSViewController, PreferencePane {
     @IBOutlet weak var showVolumeToggleItem:      NSButton!
     
     /// Preferenceable
-    var preferencePaneIdentifier: Identifier = Identifier.controler_center_widget
+    var preferencePaneIdentifier: Preferences.PaneIdentifier = Preferences.PaneIdentifier.controler_center_widget
     let preferencePaneTitle:      String     = "Control Center Widget".localized
     var toolbarItemIcon:          NSImage    = NSImage(named: "ControlCenterWidget")!
     

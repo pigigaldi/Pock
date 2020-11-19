@@ -15,4 +15,6 @@ class NowPlayingItem {
     public var album:               String?
     public var artist:              String?
     public var isPlaying:           Bool = false
+    public var image: Data?
+    
 }

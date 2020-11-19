@@ -47,7 +47,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         /// Initialize Crashlytics
         if isProd {
             UserDefaults.standard.register(defaults: ["NSApplicationCrashOnExceptions": true])
-            Fabric.with([Crashlytics.self])
+            //Fabric.with([Crashlytics.self])
         }
         
         /// Check for accessibility (needed for badges to work)

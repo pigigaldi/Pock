@@ -12,12 +12,12 @@ import Defaults
 
 let isProd: Bool = true
 
-extension PreferencePane.Identifier {
-    static let general                 = Identifier("general")
-    static let dock_widget             = Identifier("dock_widget")
-    static let status_widget           = Identifier("status_widget")
-    static let controler_center_widget = Identifier("control_center_widget")
-    static let now_playing_widget      = Identifier("now_playing_widget")
+extension Preferences.PaneIdentifier {
+    static let general                 =  Preferences.PaneIdentifier("general")
+    static let dock_widget             =  Preferences.PaneIdentifier("dock_widget")
+    static let status_widget           =  Preferences.PaneIdentifier("status_widget")
+    static let controler_center_widget =  Preferences.PaneIdentifier("control_center_widget")
+    static let now_playing_widget      =  Preferences.PaneIdentifier("now_playing_widget")
 }
 
 extension NSNotification.Name {
@@ -94,9 +94,12 @@ extension Defaults.Keys {
     static let openFinderInsidePock             = Defaults.Key<Bool>("openFinderInsidePock",   default: true)
     /// Status widget
     static let shouldShowWifiItem               = Defaults.Key<Bool>("shouldShowWifiItem",          default: true)
+    static let shouldShowLangItem               = Defaults.Key<Bool>("shouldShowLangItem",          default: true)
+    static let shouldMakeClickable               = Defaults.Key<Bool>("shouldMakeClickable",          default: true)
     static let shouldShowPowerItem              = Defaults.Key<Bool>("shouldShowPowerItem",         default: true)
     static let shouldShowBatteryIcon            = Defaults.Key<Bool>("shouldShowBatteryIcon",       default: true)
     static let shouldShowBatteryPercentage      = Defaults.Key<Bool>("shouldShowBatteryPercentage", default: true)
+    static let shouldShowBatteryTime            = Defaults.Key<Bool>("shouldShowBatteryTime", default: false)
     static let shouldShowDateItem               = Defaults.Key<Bool>("shouldShowDateItem",          default: true)
     static let timeFormatTextField              = Defaults.Key<String>("timeFormatTextField",       default: "EE dd MMM HH:mm")
     static let shouldShowSpotlightItem          = Defaults.Key<Bool>("shouldShowSpotlightItem",     default: true)
@@ -120,4 +123,5 @@ extension Defaults.Keys {
     static let nowPlayingWidgetStyle            = Defaults.Key<NowPlayingWidgetStyle>("nowPlayingWidgetStyle", default: .default)
     static let hideNowPlayingIfNoMedia          = Defaults.Key<Bool>("hideNowPlayingIfNoMedia", default: false)
     static let animateIconWhilePlaying          = Defaults.Key<Bool>("animateIconWhilePlaying", default: true)
+    static let showArtwork                      = Defaults.Key<Bool>("showArtwork", default: true)
 }

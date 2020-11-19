@@ -18,13 +18,14 @@ extension NSImage {
         newImage.size = destSize
         return NSImage(data: newImage.tiffRepresentation!)!.tint(color: color)
     }
-    func tint(color: NSColor) -> NSImage {
-        let image = self.copy() as! NSImage
+    func tint(color: NSColor, noCopy: Bool = false) -> NSImage {
+        let image = noCopy ? self : self.copy() as! NSImage
         image.lockFocus()
         color.set()
         let imageRect = NSRect(origin: NSZeroPoint, size: image.size)
         imageRect.fill(using: .sourceAtop)
         image.unlockFocus()
+        image.isTemplate = false
         return image
     }
 }

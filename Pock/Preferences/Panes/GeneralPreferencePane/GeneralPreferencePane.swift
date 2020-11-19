@@ -34,7 +34,7 @@ final class GeneralPreferencePane: NSViewController, PreferencePane {
     private static let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? "Unknown"
     
     /// Preferenceable
-    var preferencePaneIdentifier: Identifier = Identifier.general
+    var preferencePaneIdentifier: Preferences.PaneIdentifier = Preferences.PaneIdentifier.general
     let preferencePaneTitle:      String     = "General".localized
     let toolbarItemIcon:          NSImage    = NSImage(named: NSImage.preferencesGeneralName)!
     

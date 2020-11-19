@@ -13,7 +13,7 @@ import Defaults
 class NowPlayingPreferencePane: NSViewController, PreferencePane {
 
     /// Preferenceable
-    var preferencePaneIdentifier: Identifier = Identifier.now_playing_widget
+    var preferencePaneIdentifier: Preferences.PaneIdentifier = Preferences.PaneIdentifier.now_playing_widget
     let preferencePaneTitle:      String     = "Now Playing Widget".localized
     var toolbarItemIcon:          NSImage {
         let id: String
@@ -33,6 +33,7 @@ class NowPlayingPreferencePane: NSViewController, PreferencePane {
     @IBOutlet private weak var playPauseRadioButton:    NSButton!
     @IBOutlet private weak var hideWidgetIfNoMedia:     NSButton!
     @IBOutlet private weak var animateIconWhilePlaying: NSButton!
+    @IBOutlet private weak var showArtwork: NSButton!
     
     override var nibName: NSNib.Name? {
         return "NowPlayingPreferencePane"
@@ -50,6 +51,7 @@ class NowPlayingPreferencePane: NSViewController, PreferencePane {
         }
         hideWidgetIfNoMedia.state     = Defaults[.hideNowPlayingIfNoMedia] ? .on : .off
         animateIconWhilePlaying.state = Defaults[.animateIconWhilePlaying] ? .on : .off
+        showArtwork.state             = Defaults[.showArtwork] ? .on : .off
         setupImageViewClickGesture()
     }
     
@@ -92,6 +94,8 @@ class NowPlayingPreferencePane: NSViewController, PreferencePane {
             Defaults[.hideNowPlayingIfNoMedia] = button.state == .on
         case 1:
             Defaults[.animateIconWhilePlaying] = button.state == .on
+        case 2:
+            Defaults[.showArtwork] = button.state == .on
         default:
             return
         }

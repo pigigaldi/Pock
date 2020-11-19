@@ -22,7 +22,7 @@ class DockWidgetPreferencePane: NSViewController, PreferencePane {
     @IBOutlet weak var itemSpacingTextField:               NSTextField!
     
     /// Preferenceable
-    var preferencePaneIdentifier: Identifier = Identifier.dock_widget
+    var preferencePaneIdentifier: Preferences.PaneIdentifier = Preferences.PaneIdentifier.dock_widget
 
     let preferencePaneTitle:      String     = "Dock Widget".localized
     var toolbarItemIcon: NSImage {

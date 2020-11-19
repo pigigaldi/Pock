@@ -17,6 +17,7 @@ class StatusWidget: PKWidget {
     /// Core
     private var statusElements: [StatusItem] = [
         SWifiItem(),
+        SLangItem(),
         SPowerItem(),
         SClockItem()
     ]
@@ -39,7 +40,7 @@ class StatusWidget: PKWidget {
     
     func viewDidAppear() {
         NSWorkspace.shared.notificationCenter.addObserver(forName: .shouldReloadStatusWidget, object: nil, queue: .main, using: { [weak self] _ in
-            self?.loadStatusElements()
+            self?.loadStatusElements(needsUnload: true)
         })
     }
     
@@ -62,18 +63,16 @@ class StatusWidget: PKWidget {
         })
     }
     
-    private func loadStatusElements() {
+    private func loadStatusElements(needsUnload: Bool = false) {
         clearStackView()
         statusElements.filter({ $0.enabled }).forEach({ item in
-            item.didLoad()
-            if let cachedView = statusElementViews[item.title] {
-                item.reload()
-                stackView.addArrangedSubview(cachedView)
-            }else {
-                statusElementViews[item.title] = item.view
-                item.reload()
-                stackView.addArrangedSubview(item.view)
+            if needsUnload {
+                item.didUnload()
             }
+            item.didLoad()
+            statusElementViews[item.title] = item.view
+            item.reload()
+            stackView.addArrangedSubview(item.view)
         })
     }
 }

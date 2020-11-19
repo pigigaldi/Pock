@@ -189,6 +189,9 @@ extension DockWidget: DockDelegate {
                 view.set(isRunning:   item?.isRunning   ?? false)
                 view.set(isFrontmost: item?.isFrontmost ?? false)
                 view.set(isLaunching: item?.isLaunching ?? false)
+                if let i = item, i.isFrontmost && !i.isPersistentItem {
+                    s.dockScrubber?.animator().scrollItem(at: i.index, to: .none)
+                }
             })
         }
     }

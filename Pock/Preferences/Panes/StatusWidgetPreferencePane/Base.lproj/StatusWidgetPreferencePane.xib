@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="StatusWidgetPreferencePane" customModule="Pock" customModuleProvider="target">
             <connections>
+                <outlet property="makeClickable" destination="Deb-iR-B7p" id="jbg-VF-tF4"/>
                 <outlet property="showBatteryIconItem" destination="0iY-fD-cWj" id="cg2-Aa-j8W"/>
                 <outlet property="showBatteryPercentageItem" destination="UIv-xe-fLQ" id="hAs-38-djl"/>
+                <outlet property="showBatteryTimeItem" destination="UsQ-ok-NU4" id="OYW-EC-8Xk"/>
                 <outlet property="showDateItem" destination="XAw-dt-3HD" id="Z4g-va-feY"/>
+                <outlet property="showLangItem" destination="gmR-5Q-Ai1" id="Hkq-3i-tkV"/>
                 <outlet property="showPowerItem" destination="P4F-Aq-avh" id="GQA-CU-urZ"/>
                 <outlet property="showWifiItem" destination="2QA-fb-vdC" id="wvf-Iq-9Ka"/>
                 <outlet property="timeFormatTextField" destination="fXD-5d-Dqf" id="wQw-2w-3mb"/>
@@ -20,14 +23,14 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="Hz6-mo-xeY">
-            <rect key="frame" x="0.0" y="0.0" width="392" height="212"/>
+            <rect key="frame" x="0.0" y="0.0" width="392" height="318"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <stackView distribution="fillEqually" orientation="vertical" alignment="leading" spacing="16" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oAr-3p-C2k">
-                    <rect key="frame" x="20" y="20" width="352" height="172"/>
+                    <rect key="frame" x="20" y="20" width="352" height="278"/>
                     <subviews>
                         <button verticalHuggingPriority="750" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="2QA-fb-vdC">
-                            <rect key="frame" x="-2" y="156" width="113" height="18"/>
+                            <rect key="frame" x="-2" y="261" width="116" height="18"/>
                             <buttonCell key="cell" type="check" title="Show Wifi item" bezelStyle="regularSquare" imagePosition="left" inset="2" id="c9g-yA-umL">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -36,8 +39,18 @@
                                 <action selector="didChangeCheckboxValue:" target="-2" id="QAa-Dq-N5S"/>
                             </connections>
                         </button>
+                        <button verticalHuggingPriority="750" tag="10" translatesAutoresizingMaskIntoConstraints="NO" id="gmR-5Q-Ai1">
+                            <rect key="frame" x="-2" y="229" width="185" height="18"/>
+                            <buttonCell key="cell" type="check" title="Show Keyboard Input item" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Rmr-Vx-2Ll">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="didChangeCheckboxValue:" target="-2" id="48n-N8-UeQ"/>
+                            </connections>
+                        </button>
                         <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="P4F-Aq-avh">
-                            <rect key="frame" x="-2" y="126" width="126" height="18"/>
+                            <rect key="frame" x="-2" y="197" width="130" height="18"/>
                             <buttonCell key="cell" type="check" title="Show Power item" bezelStyle="regularSquare" imagePosition="left" inset="2" id="OGc-Cn-VS5">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -47,7 +60,7 @@
                             </connections>
                         </button>
                         <button verticalHuggingPriority="750" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="0iY-fD-cWj">
-                            <rect key="frame" x="18" y="96" width="133" height="18"/>
+                            <rect key="frame" x="18" y="165" width="136" height="18"/>
                             <buttonCell key="cell" type="check" title="Show Battery Icon" bezelStyle="regularSquare" imagePosition="left" inset="2" id="S9t-Wy-9IV">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -57,7 +70,7 @@
                             </connections>
                         </button>
                         <button verticalHuggingPriority="750" tag="22" translatesAutoresizingMaskIntoConstraints="NO" id="UIv-xe-fLQ">
-                            <rect key="frame" x="18" y="66" width="176" height="18"/>
+                            <rect key="frame" x="18" y="133" width="180" height="18"/>
                             <buttonCell key="cell" type="check" title="Show Battery Percentage" bezelStyle="regularSquare" imagePosition="left" inset="2" id="zlO-nx-U7P">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -66,8 +79,18 @@
                                 <action selector="didChangeCheckboxValue:" target="-2" id="8R2-Ul-YqP"/>
                             </connections>
                         </button>
+                        <button verticalHuggingPriority="750" tag="23" translatesAutoresizingMaskIntoConstraints="NO" id="UsQ-ok-NU4">
+                            <rect key="frame" x="18" y="101" width="207" height="18"/>
+                            <buttonCell key="cell" type="check" title="Show Battery Time Remaining" bezelStyle="regularSquare" imagePosition="left" inset="2" id="BEo-6F-ROt">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="didChangeCheckboxValue:" target="-2" id="kTk-tM-fYA"/>
+                            </connections>
+                        </button>
                         <button verticalHuggingPriority="750" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="XAw-dt-3HD">
-                            <rect key="frame" x="-2" y="36" width="118" height="18"/>
+                            <rect key="frame" x="-2" y="69" width="121" height="18"/>
                             <buttonCell key="cell" type="check" title="Show Date item" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Zze-FZ-vdx">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -77,7 +100,7 @@
                             </connections>
                         </button>
                         <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="5" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HHj-jt-7nm">
-                            <rect key="frame" x="20" y="0.0" width="332" height="22"/>
+                            <rect key="frame" x="20" y="32" width="331" height="22"/>
                             <subviews>
                                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kgu-2N-5Rz">
                                     <rect key="frame" x="-2" y="3" width="85" height="16"/>
@@ -99,7 +122,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <button toolTip="Time Format Help" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QDl-u9-yz3">
-                                    <rect key="frame" x="309" y="-3" width="25" height="25"/>
+                                    <rect key="frame" x="308" y="-3" width="25" height="25"/>
                                     <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uHI-Pg-M2K">
                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                         <font key="font" metaFont="system"/>
@@ -123,11 +146,22 @@
                                 <real value="3.4028234663852886e+38"/>
                             </customSpacing>
                         </stackView>
+                        <button verticalHuggingPriority="750" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="Deb-iR-B7p">
+                            <rect key="frame" x="-2" y="-1" width="152" height="18"/>
+                            <buttonCell key="cell" type="check" title="Make items clickable" bezelStyle="regularSquare" imagePosition="left" inset="2" id="5fN-Lf-VT4">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="didChangeCheckboxValue:" target="-2" id="fk7-I6-Yob"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstItem="UIv-xe-fLQ" firstAttribute="leading" secondItem="oAr-3p-C2k" secondAttribute="leading" constant="20" id="Vmn-Lt-3Jg"/>
                         <constraint firstItem="HHj-jt-7nm" firstAttribute="leading" secondItem="oAr-3p-C2k" secondAttribute="leading" constant="20" id="aq8-dn-fLJ"/>
                         <constraint firstItem="0iY-fD-cWj" firstAttribute="leading" secondItem="oAr-3p-C2k" secondAttribute="leading" constant="20" id="muY-gT-4J6"/>
+                        <constraint firstItem="UsQ-ok-NU4" firstAttribute="leading" secondItem="oAr-3p-C2k" secondAttribute="leading" constant="20" id="uIc-Ui-9gi"/>
                     </constraints>
                     <visibilityPriorities>
                         <integer value="1000"/>
@@ -136,8 +170,14 @@
                         <integer value="1000"/>
                         <integer value="1000"/>
                         <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
                     </visibilityPriorities>
                     <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
                         <real value="3.4028234663852886e+38"/>
                         <real value="3.4028234663852886e+38"/>
                         <real value="3.4028234663852886e+38"/>

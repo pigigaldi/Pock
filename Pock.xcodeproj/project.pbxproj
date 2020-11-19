@@ -84,7 +84,16 @@
 		96BE2701237171DC0031B31F /* CCScreensaverItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE2700237171DC0031B31F /* CCScreensaverItem.swift */; };
 		96E7A152239B99F700CB4C4C /* CCDoNotDisturbItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7A151239B99F700CB4C4C /* CCDoNotDisturbItem.swift */; };
 		96FE269F22D0C3810071645C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96FE26A122D0C3810071645C /* Localizable.strings */; };
+		99510002256574DC00E34E4D /* BatteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99510001256574DC00E34E4D /* BatteryService.swift */; };
+		99510005256574FD00E34E4D /* RegistryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99510004256574FD00E34E4D /* RegistryKey.swift */; };
+		995100092565752800E34E4D /* BatteryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995100072565752800E34E4D /* BatteryState.swift */; };
+		9951000A2565752800E34E4D /* BatteryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995100082565752800E34E4D /* BatteryError.swift */; };
+		9951000F2565912200E34E4D /* BatteryImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9951000C2565912200E34E4D /* BatteryImageCache.swift */; };
+		995100102565912200E34E4D /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9951000D2565912200E34E4D /* NSImage.swift */; };
+		995100112565912200E34E4D /* StatusBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9951000E2565912200E34E4D /* StatusBarIcon.swift */; };
 		9955665222DC668500EFFE6D /* CCVolumeMuteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955665122DC668500EFFE6D /* CCVolumeMuteItem.swift */; };
+		999276BE249FD8C300EFF44A /* SLangItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999276BD249FD8C300EFF44A /* SLangItem.swift */; };
+		99A4FC742566AD5900BFD91F /* PKClickableElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A4FC732566AD5900BFD91F /* PKClickableElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -209,7 +218,16 @@
 		96F29996231797C00055DA26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GeneralPreferencePane.strings; sourceTree = "<group>"; };
 		96F2999A2317980B0055DA26 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ControlCenterWidgetPreferencePane.strings"; sourceTree = "<group>"; };
 		96FE26A022D0C3810071645C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99510001256574DC00E34E4D /* BatteryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryService.swift; sourceTree = "<group>"; };
+		99510004256574FD00E34E4D /* RegistryKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistryKey.swift; sourceTree = "<group>"; };
+		995100072565752800E34E4D /* BatteryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryState.swift; sourceTree = "<group>"; };
+		995100082565752800E34E4D /* BatteryError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryError.swift; sourceTree = "<group>"; };
+		9951000C2565912200E34E4D /* BatteryImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryImageCache.swift; sourceTree = "<group>"; };
+		9951000D2565912200E34E4D /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		9951000E2565912200E34E4D /* StatusBarIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarIcon.swift; sourceTree = "<group>"; };
 		9955665122DC668500EFFE6D /* CCVolumeMuteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCVolumeMuteItem.swift; sourceTree = "<group>"; };
+		999276BD249FD8C300EFF44A /* SLangItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLangItem.swift; sourceTree = "<group>"; };
+		99A4FC732566AD5900BFD91F /* PKClickableElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKClickableElements.swift; sourceTree = "<group>"; };
 		AAA3636F2333699C0016267D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DockFolderController.strings"; sourceTree = "<group>"; };
 		AAA363702333699C0016267D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/GeneralPreferencePane.strings"; sourceTree = "<group>"; };
 		AAA363712333699C0016267D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/StatusWidgetPreferencePane.strings"; sourceTree = "<group>"; };
@@ -318,6 +336,7 @@
 		342D83932278D5CF000D79DA /* Pock */ = {
 			isa = PBXGroup;
 			children = (
+				995100132565B99100E34E4D /* BatteryTools */,
 				342D83B32278D5CF000D79DA /* AppDelegate.swift */,
 				3407F9DD22D0F0A60072E742 /* Extensions.swift */,
 				342D83942278D5CF000D79DA /* Interfaces UI */,
@@ -499,6 +518,7 @@
 		342D83C52278D5CF000D79DA /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				999276BD249FD8C300EFF44A /* SLangItem.swift */,
 				342D83C62278D5CF000D79DA /* SSpotlightItem.swift */,
 				342D83C72278D5CF000D79DA /* SWifiItem.swift */,
 				342D83C82278D5CF000D79DA /* SPowerItem.swift */,
@@ -520,6 +540,7 @@
 			isa = PBXGroup;
 			children = (
 				342D83CE2278D5CF000D79DA /* PKWidgetTouchBarItem.swift */,
+				99A4FC732566AD5900BFD91F /* PKClickableElements.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -634,6 +655,20 @@
 				863BE70CFBAC31BDBF35B1FD /* Pods_Pock.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		995100132565B99100E34E4D /* BatteryTools */ = {
+			isa = PBXGroup;
+			children = (
+				99510001256574DC00E34E4D /* BatteryService.swift */,
+				995100082565752800E34E4D /* BatteryError.swift */,
+				995100072565752800E34E4D /* BatteryState.swift */,
+				99510004256574FD00E34E4D /* RegistryKey.swift */,
+				9951000C2565912200E34E4D /* BatteryImageCache.swift */,
+				9951000D2565912200E34E4D /* NSImage.swift */,
+				9951000E2565912200E34E4D /* StatusBarIcon.swift */,
+			);
+			path = BatteryTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -795,6 +830,7 @@
 				"${BUILT_PRODUCTS_DIR}/Magnet/Magnet.framework",
 				"${BUILT_PRODUCTS_DIR}/PockKit/PockKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Preferences/Preferences.framework",
+				"${BUILT_PRODUCTS_DIR}/Sauce/Sauce.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -804,6 +840,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PockKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Preferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sauce.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -820,6 +857,8 @@
 			files = (
 				342D83FA2278D5CF000D79DA /* SSpotlightItem.swift in Sources */,
 				342D83F92278D5CF000D79DA /* StatusItem.swift in Sources */,
+				999276BE249FD8C300EFF44A /* SLangItem.swift in Sources */,
+				995100092565752800E34E4D /* BatteryState.swift in Sources */,
 				3406433E227ED8BC00981372 /* DockFolderItemView.swift in Sources */,
 				347F336022D0D68400FA9805 /* CCLockItem.swift in Sources */,
 				342D83E62278D5CF000D79DA /* StatusWidgetPreferencePane.swift in Sources */,
@@ -838,26 +877,33 @@
 				342D83F12278D5CF000D79DA /* CCVolumeDownItem.swift in Sources */,
 				342D84032278D5CF000D79DA /* FileEvent.swift in Sources */,
 				9675D6D323701BC900C36234 /* CCBrightnessToggleItem.swift in Sources */,
+				995100112565912200E34E4D /* StatusBarIcon.swift in Sources */,
 				3407F9EB22D1C7F40072E742 /* AppExposeItem.swift in Sources */,
 				34E644F4227CB6CE003D0450 /* KeySender.swift in Sources */,
 				342D840B2278D5CF000D79DA /* DockItemView.swift in Sources */,
 				342D840C2278D5CF000D79DA /* DockWidget.swift in Sources */,
 				34E644FB227D9A69003D0450 /* DockWidgetPreferencePane.swift in Sources */,
 				3407F9DC22D0E75E0072E742 /* ControlCenterWidgetPreferencePane.swift in Sources */,
+				99A4FC742566AD5900BFD91F /* PKClickableElements.swift in Sources */,
+				99510002256574DC00E34E4D /* BatteryService.swift in Sources */,
 				342D83EE2278D5CF000D79DA /* ControlCenterWidget.swift in Sources */,
 				342D83EC2278D5CF000D79DA /* OSDUIHelper.swift in Sources */,
+				995100102565912200E34E4D /* NSImage.swift in Sources */,
 				3418D9FF22882EC600E11E37 /* PKSlideableController.swift in Sources */,
 				342D83FE2278D5CF000D79DA /* EscWidget.swift in Sources */,
 				345C955423A53D4D00E1AC53 /* NowPlayingPreferencePane.swift in Sources */,
 				34064343227EDC2200981372 /* DockFolderRepository.swift in Sources */,
 				342D83E02278D5CF000D79DA /* PKTouchBarController.swift in Sources */,
+				9951000F2565912200E34E4D /* BatteryImageCache.swift in Sources */,
 				3406434A227F323A00981372 /* PKTouchBarNavController.swift in Sources */,
+				9951000A2565752800E34E4D /* BatteryError.swift in Sources */,
 				34064337227E224700981372 /* DockFolderController.swift in Sources */,
 				342D83F22278D5CF000D79DA /* CCBrightnessUpItem.swift in Sources */,
 				3407F9DE22D0F0A60072E742 /* Extensions.swift in Sources */,
 				342D83F02278D5CF000D79DA /* CCBrightnessDownItem.swift in Sources */,
 				347F336722D0DB9200FA9805 /* SystemHelper.m in Sources */,
 				342D83F52278D5CF000D79DA /* NowPlayingItem.swift in Sources */,
+				99510005256574FD00E34E4D /* RegistryKey.swift in Sources */,
 				342D83F62278D5CF000D79DA /* NowPlayingWidget.swift in Sources */,
 				342D840D2278D5CF000D79DA /* FileMonitor.swift in Sources */,
 				3407F9E722D1C5170072E742 /* AppExposeController.swift in Sources */,

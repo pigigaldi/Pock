@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -14,17 +14,18 @@
                 <outlet property="imagesStackView" destination="6vs-1x-7qT" id="xRb-qe-4M9"/>
                 <outlet property="onlyInfoRadioButton" destination="SWC-PR-hvh" id="OBq-Mb-hey"/>
                 <outlet property="playPauseRadioButton" destination="z1t-VA-Pez" id="Pyl-fj-gnH"/>
+                <outlet property="showArtwork" destination="q2x-n8-yQQ" id="jrx-56-gej"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="Hz6-mo-xeY">
-            <rect key="frame" x="0.0" y="0.0" width="584" height="286"/>
+            <rect key="frame" x="0.0" y="0.0" width="584" height="324"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <stackView distribution="fillEqually" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6vs-1x-7qT">
-                    <rect key="frame" x="20" y="130" width="544" height="100"/>
+                    <rect key="frame" x="20" y="168" width="544" height="100"/>
                     <subviews>
                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lVi-bn-Iha">
                             <rect key="frame" x="-3" y="-3" width="174" height="106"/>
@@ -72,7 +73,7 @@
                     </customSpacing>
                 </stackView>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lc0-ND-UTy">
-                    <rect key="frame" x="18" y="250" width="548" height="16"/>
+                    <rect key="frame" x="18" y="288" width="548" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Choose the widget style:" id="ooI-7i-Wfp">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -80,7 +81,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hjN-rN-Bz7">
-                    <rect key="frame" x="94" y="93" width="22" height="18"/>
+                    <rect key="frame" x="95" y="132" width="18" height="18"/>
                     <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="aEQ-zE-ACK">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -90,7 +91,7 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-PR-hvh">
-                    <rect key="frame" x="282" y="93" width="22" height="18"/>
+                    <rect key="frame" x="283" y="132" width="18" height="18"/>
                     <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="8v9-US-mJe">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -100,7 +101,7 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="z1t-VA-Pez">
-                    <rect key="frame" x="470" y="93" width="22" height="18"/>
+                    <rect key="frame" x="471" y="132" width="18" height="18"/>
                     <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ey0-xf-jXW">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -110,10 +111,10 @@
                     </connections>
                 </button>
                 <stackView distribution="fillEqually" orientation="vertical" alignment="leading" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="II5-0Z-P7k">
-                    <rect key="frame" x="20" y="20" width="544" height="48"/>
+                    <rect key="frame" x="20" y="20" width="544" height="88"/>
                     <subviews>
                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="o7u-jf-oUS" userLabel="Hide Trash Checkbox">
-                            <rect key="frame" x="-2" y="32" width="298" height="18"/>
+                            <rect key="frame" x="-2" y="71" width="302" height="18"/>
                             <buttonCell key="cell" type="check" title="Hide the widget when there is no item playing" bezelStyle="regularSquare" imagePosition="left" inset="2" id="krA-nL-skn">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -123,7 +124,7 @@
                             </connections>
                         </button>
                         <button verticalHuggingPriority="750" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="mSI-i6-6Vt" userLabel="Hide Trash Checkbox">
-                            <rect key="frame" x="-2" y="-2" width="227" height="18"/>
+                            <rect key="frame" x="-2" y="35" width="231" height="18"/>
                             <buttonCell key="cell" type="check" title="Animate widget icon while playing" bezelStyle="regularSquare" imagePosition="left" inset="2" id="8Rh-se-AKA">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -132,12 +133,24 @@
                                 <action selector="didChangeCheckboxState:" target="-2" id="ciN-Yi-Fin"/>
                             </connections>
                         </button>
+                        <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="q2x-n8-yQQ" userLabel="Hide Trash Checkbox">
+                            <rect key="frame" x="-2" y="-1" width="185" height="18"/>
+                            <buttonCell key="cell" type="check" title="Show now playing artwork" bezelStyle="regularSquare" imagePosition="left" inset="2" id="8S8-I5-uAZ">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="didChangeCheckboxState:" target="-2" id="cOg-4u-yzK"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <visibilityPriorities>
                         <integer value="1000"/>
                         <integer value="1000"/>
+                        <integer value="1000"/>
                     </visibilityPriorities>
                     <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
                         <real value="3.4028234663852886e+38"/>
                         <real value="3.4028234663852886e+38"/>
                     </customSpacing>
