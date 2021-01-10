@@ -1,7 +1,6 @@
 <p align="center"><img src="https://pock.dev/assets/img/brand/web-icon-black.png" width="96"/></p>
-<p align="center">Display macOS Dock in Touch Bar.</p>
-<p align="center">It's free and open source, and it also brings some minimalistic widgets with it!
-</p>
+<p align="center">Affichez le dock de macOS dans la Touch Bar.</p>
+<p align="center">C'est gratuit et open source et amène des widgets minimalistes !</p>
 <p align="center">
   <img width="800" src="https://pock.dev/assets/img/preview/pock_widgets.png"/>
 </p>
@@ -9,44 +8,42 @@
 
 
 ## macOS Catalina (10.15)
-If you are on macOS Catalina (10.15), please click [here](https://pock.dev/docs/catalina.html) and read carefully the suggestions to have a flawless experience.
+Si vous etes sous macOS Catalina (10.15), clickez [ici](https://pock.dev/docs/catalina.html) et lisez les suggestions pour avoir une expérience sans failles.
 
-## Why can't I open an issue/pull request?
-I’m currently migrating all default widgets to make **Pock** independent from them. 
-At the end of the process, each widget will have its _dedicated repo_, where you'll be able to open new PRs. 
-I hope to publish the new sources soon alongside **PockKit**.
+## Pourquoi je ne peux pas ouvrir une requete issue/pull ?
+Je suis actuellement en train de migrer tous les widgets par défault pour que **Pock** soit indépendant d'eux.
+A la fin, chaque widget aura son propre _repo dédié_, ou vous pourriez ouvrir de nouveaux PRs.
+J'espère pouvoir publier de nouvelles sources en parallèle de **PockKit**.
 
-The PRs that are currently opened will be merged manually in the dedicated widget repository
+Les PRs qui sont actuellement ouverts seronts rassemblés manuellement dans le depôt du widget dédié.
 
-**Thanks for your patience!**
+**Merci de votre patience !**
 
-## Thank you!
+## Merci !
 
-If you want to support this project, you can [click here](https://paypal.me/pigigaldi)!
-Pock will always be available as free software!
+Si vous voulez supporter le projet, vous pouvez [cliquer ici](https://paypal.me/pigigaldi)!
+Pock sera toujours disponnible gratuitement !
 
 
 
-## How To Enable
+## Comment l'activer ?
 
-1. Move Pock to your Applications folder
-2. Open Pock
-3. If you don't see Pock in your Touch Bar, go to the `Keyboard` pane in System Preferences and select "Touch Bar shows _App Controls_."
-
+1. Déplacez Pock dans le dossier Application.
+2. Ouvrez Pock.
+3. Si vous ne voyez pas Pock dans votre Touch Bar, allez dans le panneau `Clavier` dans Préférences Système et sélectionnez "La Touch Bar affiche commandes de l'app"
 
 
 ## Widgets
 
-<small>Includes five default widgets</small>
+<small>Inclus cinq widgets par défault</small>
 
 ##### Dock widget
 
-Your macOS Dock inside your MacBook's TouchBar, the core widget.
-It comes with fully-functional badge support so you will not miss any notification.
-More features can be configured in widget settings along with other preferences.
-It now includes multi-window support!
-*Enjoy your screen in full-size every time!*
-
+Votre dock macOs dans votre Touch Bar, le widget 'core' de base.
+Il est équipé avec un support de notification entièrement fonctionnel afin de ne manquer aucune notification.
+Plus de fonctionnalités peuvent être configurées dans les paramètres du widget ainsi que d’autres préférences.
+Il inclus maintenant le support multi-fenêtres !
+*profitez de votre écran en plein-écran tout le temps !*
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_dock_widget.png"/>
 </div>
@@ -56,15 +53,15 @@ It now includes multi-window support!
 
 
 
-##### Now Playing widget
+##### En cours widget
 
-Media information at a glance with gestures for media controls included.
+L’information du média en un coup d’œil avec des gestes pour le contrôle des médias inclus.
 
-| Gesture     | Action            |
-| ----------- | ----------------- |
-| tap         | toggle play/pause |
-| swipe left  | previous song     |
-| swipe right | next song         |
+| Geste            | Action               |
+| ---------------- | -------------------- |
+| touché           | active le play/pause |
+| glissé à gauche  | son précédent        |
+| glissé à droite  | son suivant          |
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_now_playing_widget.png"/>
@@ -74,7 +71,7 @@ Media information at a glance with gestures for media controls included.
 
 ##### ESC widget
 
-A handy ESC button is there, just in case, so you don't have to hide Pock to access the system one.
+Un widget ESC pratique est là, au cas ou, pour que vous n'ayez pas à cacher Pock pour acceder à celui du système.
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_esc_widget.png"/>
@@ -82,9 +79,9 @@ A handy ESC button is there, just in case, so you don't have to hide Pock to acc
 
 
 
-##### Status widget
+##### Statut widget
 
-Always keep an eye on system information, like what time is it, or maybe WiFi status or Battery status. Configure Status items from settings.
+Gardez toujours un œil sur les informations du système, comme l'heure ou peut-être le statut de la Wifi ou celui de la batterie. Configurer les éléments depuis des paramètres.
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_status_widget.png"/>
@@ -94,8 +91,8 @@ Always keep an eye on system information, like what time is it, or maybe WiFi st
 
 ##### Control Center widget
 
-Change screen brightness or system volume with easy controls.
-Long press or slide on control center item to invoke sliders.
+Changez la luminosité de l'écran ou le volume avec des contrôles faciles.
+Appuyez longuement ou glissez sur l’élément central de commande pour invoquer des curseurs.
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_control_center_widget.png"/>
@@ -103,10 +100,10 @@ Long press or slide on control center item to invoke sliders.
 
 
 
-##### More...
+##### Plus...
 
-More widgets are coming!
-Keep search for #pock on social media to be updated on future widgets releases!
+Plus de widgets arrivent !
+Continuez de chercher #pock sur les réseaux sociaux pour suivre les prochaines sorties de widgets !
 
 <div align="left">
   <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_more_widget.png"/>
@@ -116,7 +113,7 @@ Keep search for #pock on social media to be updated on future widgets releases!
 
 ## Preferences
 
-You can adjust Pock and widgets settings to reflects your specific needs. You can access these panes from the **Preferences** menu item.
+Vous pouvre ajuster les réglages de Pock et des widgets afin de refléter vos besoins spécifiques. Vous pouvez y accèder dans **Preferences**.
 
 <div display="float">
   <img width="262" src="https://pock.dev/assets/img/preview/preferences/preference_dock_widget.png"/>
@@ -124,9 +121,9 @@ You can adjust Pock and widgets settings to reflects your specific needs. You ca
   <img width="262" src="https://pock.dev/assets/img/preview/preferences/preference_status_widget.png"/>
 </div>
 
-## Customize
+## Customisation
 
-You can customize the widget position in TouchBar from the **Customize** menu item.
+Vous pouvez personnaliser la position du widget dans TouchBar depuis **Customize**.
 
 <div align="left">
   <img src="https://pock.dev/assets/img/preview/pock_customize.png"/>
@@ -134,10 +131,10 @@ You can customize the widget position in TouchBar from the **Customize** menu it
 
 
 
-## Developers
+## Développeurs
 
-<p align="left">Do you want to build a custom widget for Pock?
-  Soon you will be able to do it, with <b>PockKit</b>!
+<p align="left">Vous voulez développer un widget customisé pour Pock ?
+  Vous pourrez bientot avec <b>PockKit</b>!
 </p>
 
 <div align="center">
@@ -146,35 +143,35 @@ You can customize the widget position in TouchBar from the **Customize** menu it
 
 
 
-## Special mentions
+## Mentions spéciales
 
 * [BrokenSt0rm](https://twitter.com/BrokenSt0rm) 🙅‍♂️
 * [SnapKit](https://github.com/SnapKit/SnapKit)
 * [Magnet, LoginServiceKit](https://github.com/Clipy)
-* [touch-baer](https://github.com/a2/touch-baer) - How to put icon in Control Strip
-* [Minebomber](https://stackoverflow.com/a/36115210) - This comment blowed my mind
+* [touch-baer](https://github.com/a2/touch-baer) - Comment mettre des icônes sur la Control Strip
+* [Minebomber](https://stackoverflow.com/a/36115210) - Ce commentaire m'a épatté
 * [Defaults, Preferences](https://github.com/sindresorhus/)
 * [Witness](https://github.com/njdehoog/Witness)
 
 
 
-## Translated READMEs
+## READMEs traduits
 
 🇺🇸 [English](README.md)
 🇨🇳 [中文](.github/readmes/README.cn.md)
 🇯🇵 [日本語](.github/readmes/README.ja.md)
 🇹🇷 [Türkçe](.github/readmes/README.tr.md)
 
-<small>* Some translations may be different or incomplete</small>.
+<small>* Certaines traductions peuvent être incomplètes ou incorrectes </small>.
 
 
 
 ## Info
 
-**Pock** will never be a commercial package.
+**Pock** ne sera jammais commercialisé.
 
 
 
 ## License
 
-Under MIT license. See [LICENSE](LICENSE) file for further information.
+Sous la license MIT. Voir la [LICENSE](LICENSE) pour plus d'informations.
