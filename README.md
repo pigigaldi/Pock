@@ -170,6 +170,7 @@ You can customize the widget position in TouchBar from the **Customize** menu it
 🇨🇳 [中文](.github/readmes/README.cn.md)
 🇯🇵 [日本語](.github/readmes/README.ja.md)
 🇹🇷 [Türkçe](.github/readmes/README.tr.md)
+🇫🇷 [Français](.github/readmes/README.fr.md)
 
 <small>* Some translations may be different or incomplete</small>.
 

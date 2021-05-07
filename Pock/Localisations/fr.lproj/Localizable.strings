@@ -1,0 +1,51 @@
+/*
+ Localizable.strings
+ Pock
+ 
+ Created by Zek0Faws on 2021/2/24.
+ Copyright © 2019 Pierluigi Galdi. All rights reserved.
+ */
+
+"General" = "Général";
+"Dock" = "Dock";
+"Status" = "Statut";
+"Control Center" = "Centre de Contrôle";
+"Now Playing" = "À l’Écoute";
+"Esc key" = "Touche Esc";
+"Unknown" = "Inconnu";
+"Never" = "Jamais";
+"Instantly" = "Instantané";
+"1 second" = "1 seconde";
+"5 seconds" = "5 secondes";
+"10 seconds" = "10 secondes";
+"30 seconds" = "30 secondes";
+"1 minute" = "1 minute";
+"3 minutes" = "3 minutes";
+"More Than 1 Window" = "Plus d'une fenêtre";
+"Always" = "Toujours";
+"Pock Options" = "Options de Pock";
+"Preferences…" = "Préférences…";
+"Customize…" = "Personnalisation…";
+"Support this project" = "Soutenir ce projet";
+"Quit Pock" = "Quitter Pock";
+"Checking…"= "Vérification…";
+"Installed version" = "Version installée";
+"Already on latest version" = "Dernière version déjà installée";
+"Check for updates" = "Vérifier les mises à jour";
+"New version available!" = "Nouvelle version disponible!";
+"Download" = "Télécharger";
+"Later" = "Plus tard";
+"Do you want to download version" = "Voulez-vous télécharger la version";
+"now?" = "maintenant?";
+"windows" = "fenêtre";
+"Loading..." = "Chargement...";
+"elements" = "éléments";
+"Trash" = "Poubelle";
+"Tap here" = "Tapez ici";
+"to play music" = "pour mettre de la musique";
+"Missing title" = "Titre manquant";
+"Unknown artist" = "Artiste inconnu";
+
+"Advanced" = "Avancé";
+"Reload Pock" = "Recharger Pock";
+"Reload Touch Bar" = "Recharger la Touch Bar";

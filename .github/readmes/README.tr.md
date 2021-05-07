@@ -8,7 +8,7 @@
 <img width="800" src="https://pock.dev/assets/img/preview/pock_widgets.png"/>
 </p>
 
-[🇺🇸English](README.md) | [🇨🇳中文](README.cn.md) | [🇯🇵日本語](README.ja.md) | [🇹🇷Türk dili](README.tr.md)
+[🇺🇸English](/README.md) | [🇨🇳中文](.github/readmes/README.cn.md) | [🇯🇵日本語](.github/readmes/README.ja.md) | [🇹🇷Türk dili](.github/readmes/README.tr.md) | [🇫🇷Français](.github/readmes/README.fr.md)
 
 ## Teşekkürler!
 

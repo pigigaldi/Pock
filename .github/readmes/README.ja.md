@@ -1,7 +1,7 @@
 <p align="center"><img src="https://pock.dev/assets/img/brand/web-icon-black.png" width="96"/></p>
 <p align="center">Touch barにmacOS Dockを表示 - 無料・オープンソース</p>
 
-[🇺🇸English](README.md) | [🇨🇳中文](README.cn.md) | [🇯🇵日本語](README.ja.md) | [🇹🇷Türk dili](README.tr.md)
+[🇺🇸English](/README.md) | [🇨🇳中文](.github/readmes/README.cn.md) | [🇯🇵日本語](.github/readmes/README.ja.md) | [🇹🇷Türk dili](.github/readmes/README.tr.md) | [🇫🇷Français](.github/readmes/README.fr.md)
 
 ### 機能
 PockはmacOS DockをMacBookのTouchBarの中に置き、スクリーンをフルサイズで楽しむことができます！
@@ -31,4 +31,4 @@ PockはmacOS DockをMacBookのTouchBarの中に置き、スクリーンをフル
 **Pock**は決して商用パッケージにはなりません。
 
 ## ライセンス
-MITライセンス。詳しくは[LICENSE](LICENSE)ファイルを参照してください。
+MITライセンス。詳しくは[LICENSE](/LICENSE)ファイルを参照してください。

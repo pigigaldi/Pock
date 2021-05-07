@@ -8,7 +8,8 @@
   <img width="800" src="https://pock.dev/assets/img/preview/pock_widgets.png"/>
 </p>
 
-[🇺🇸English](README.md) | [🇨🇳中文](README.cn.md) | [🇯🇵日本語](README.ja.md) | [🇹🇷Türk dili](README.tr.md)
+[🇺🇸English](/README.md) | [🇨🇳中文](.github/readmes/README.cn.md) | [🇯🇵日本語](.github/readmes/README.ja.md) | [🇹🇷Türk dili](.github/readmes/README.tr.md) | [🇫🇷Français](.github/readmes/README.fr.md)
+
 
 ## 感谢!
 
@@ -128,4 +129,4 @@ Pock将永远作为免费软件提供！
 
 ## 许可证
 
-在MIT许可下。有关详细信息，请参阅[LICENSE](LICENSE)文件。
+在MIT许可下。有关详细信息，请参阅[LICENSE](/LICENSE)文件。
