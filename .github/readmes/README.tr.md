@@ -1,6 +1,6 @@
 
 <p align="center"><img src="https://pock.dev/assets/img/brand/web-icon-black.png" width="96"/></p>
-<p align="center">MacOS Dock’u Touch Bar üzerinde gösterir. Ücretsiz ve açık kaynak proje!</p>
+<p align="center">MacOS Dock’u TouchBar üzerinde gösterir. Ücretsiz ve açık kaynak proje!</p>
 
 <p align="center">Pock, yeni güncelleme ile artık karşınızda! Birçok performans geliştirmesi ve Touch Bar üzerine minimalist widget eklentisi ile birlikte gelir!
 </p>
@@ -8,7 +8,7 @@
 <img width="800" src="https://pock.dev/assets/img/preview/pock_widgets.png"/>
 </p>
 
-[🇺🇸English](README.md) | [🇨🇳中文](README.cn.md) | [🇯🇵日本語](README.ja.md) | [🇹🇷Türk dili](README.tr.md)
+[🇺🇸English](README.md) | 🇫🇷 [Français](.github/readmes/README.fr.md) | [🇨🇳中文](README.cn.md) | [🇯🇵日本語](README.ja.md) | [🇹🇷Türk dili](README.tr.md)
 
 ## Teşekkürler!
 
