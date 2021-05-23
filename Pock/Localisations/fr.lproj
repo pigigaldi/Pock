@@ -1,0 +1,47 @@
+/*
+ Localizable.strings
+ Pock
+ 
+ Created by Barchemice on 12/14/2019.
+ Copyright © 2019 Pierluigi Galdi. All rights reserved.
+ */
+ 
+"General" = "Général";
+"Status Widget" = "Widget de Statut";
+"Dock Widget" = "Widget Dock";
+"Esc key" = "Touche ESC";
+"Dock" = "Dock";
+"Unknown" = "Inconnu";
+"Now Playing" = "À l’Écoute";
+"Control Center" = "Centre de Contrôle";
+"Status" = "Statut";
+"Never" = "Jamais";
+"Instantly" = "Instantané";
+"1 second" = "1 seconde";
+"5 seconds" = "5 secondes";
+"10 seconds" = "10 secondes";
+"30 seconds" = "30 secondes";
+"1 minute" = "1 minute";
+"3 minutes" = "3 minutes";
+"More Than 1 Window" = "Plus d’une fenêtre";
+"Always" = "Toujours";
+"Pock Options" = "Pock Options";
+"Preferences…" = "Préférences…";
+"Customize…" = "Personnaliser…";
+"Support this project" = "Supporter ce projet";
+"Quit Pock" = "Quitter Pock";
+"Checking…"= "Vérification…";
+"Installed version" = "Version installée";
+"Already on latest version" = "Déjà à jour";
+"Check for updates" = "Vérification des mises à jour";
+"New version available!" = "Nouvelle version disponible!";
+"Download" = "Téléchargement";
+"Later" = "Plus tard";
+"No Playback" = "Pas de Lecture";
+"Do you want to download version" = "Télécharger la nouvelle version?";
+"now?" = "Maintenant?";
+"Control Center Widget" = "Widget Centre de Contrôle";
+"windows" = "fenêtre";
+"Loading..." = "Chargement...";
+"elements" = "éléments";
+"Trash" = "Poubelle";
