@@ -1,6 +1,6 @@
 
 <p align="center"><img src="https://pock.dev/assets/img/brand/web-icon-black.png" width="96"/></p>
-<p align="center">MacOS Dock’u Touch Bar üzerinde gösterir. Ücretsiz ve açık kaynak proje!</p>
+<p align="center">Dock’ı Touch Bar üzerinde gösterir. Açık kaynak ve tamamen ücretsiz!</p>
 
 <p align="center">Pock, yeni güncelleme ile artık karşınızda! Birçok performans geliştirmesi ve Touch Bar üzerine minimalist widget eklentisi ile birlikte gelir!
 </p>
@@ -8,7 +8,11 @@
 <img width="800" src="https://pock.dev/assets/img/preview/pock_widgets.png"/>
 </p>
 
-[🇺🇸English](README.md) | [🇨🇳中文](README.cn.md) | [🇯🇵日本語](README.ja.md) | [🇹🇷Türk dili](README.tr.md)
+[🇺🇸English](README.md) | [🇨🇳中文](README.cn.md) | [🇯🇵日本語](README.ja.md) | [🇹🇷Türkçe](README.tr.md)
+
+## macOS Catalina (10.15)
+Eğer macOS Catalina (10.15) kullanıyorsanız, lütfen [buraya](https://pock.dev/docs/catalina.html) tıklayın ve kusursuz bir deneyim yaşamak için önerileri dikkatlice okuyun.
+
 
 ## Teşekkürler!
 
@@ -31,11 +35,14 @@ Pock, her zaman özgür yazılım olarak sunulacak!
 
 ##### Dock widget
 
-Dock’u TouchBar'ın içine konumlandırın. Tamamen işlevsel bir bildirim pinleme desteği sunuluyor ve böylece herhangi bir uygulama bildirimini kaçırmayacaksanız! Widget ayarlarında, diğer tercihler ile birlikte daha fazla özellik yapılandırabilirsiniz.
+Dock’ı TouchBar'ın içine konumlandırın. Tamamen işlevsel bir bildirim pinleme desteği sunuyor ve böylece herhangi bir uygulama bildirimini kaçırmayacaksanız! Widget ayarlarında, diğer tercihler ile birlikte daha fazla özellik yapılandırabilirsiniz.
 *Uygulamaların tam ekran boyutunun tadını çıkarın!*
 
 <div align="left">
 <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_dock_widget.png"/>
+</div>
+<div align="left" style="margin-top:6px">
+  <img width="500" src="https://pock.dev/assets/img/preview/widgets/pock_app_expose.png"/>
 </div>
 
 
@@ -128,7 +135,7 @@ TouchBar'daki widget konumunu **Customize**(özelleştir) menü öğesinden öze
 
 
 
-## Özel teşekkür
+## Özel Teşekkür
 
 * [BrokenSt0rm](https://twitter.com/BrokenSt0rm) 🙅‍♂️
 * [SnapKit](https://github.com/SnapKit/SnapKit)
@@ -142,7 +149,7 @@ TouchBar'daki widget konumunu **Customize**(özelleştir) menü öğesinden öze
 
 ## Bilgi
 
-**Pock** asla ticari bir paket olmayacak.
+**Pock** asla ticari bir ürün olmayacak.
 
 
 
